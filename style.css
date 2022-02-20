@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: arial;
+}
+.btns{
+    color: white;
+    padding: 10px 35px;
+    border: none;
+    background-color: deeppink;
+    cursor: pointer;
+}
+h1 {
+    font-size: 45px;
+    width: 415px;
+    padding-bottom: 15px;
+}
+h3 {
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+span {
+    color: deeppink;
+}
+
+.box {
+    width: 100%;
+    padding-top: 100px;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.container {
+    width: 1140px;
+    margin: auto;
+    height: 100%;
+    overflow: hidden;
+}
+
+.left-writing {
+    width: 550px;
+    float: left;
+}
+p {
+    font-size: 15px;
+    text-align: justify;
+    color: #00000085;
+    padding-bottom: 40px;
+}
+button.btns a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+button.btns:hover{
+    color: white;
+    background-color: black;
+}
+.rightpicture {
+    width: 570px;
+    height: 100%;
+    float: right;
+}
+.rightpicture img {
+    width: 570px;
+    height: 100%;
+}
+
+
+.left-writing2 {
+    width: 520px;
+    float: right;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.rightpicture2 {
+    width: 570px;
+    height: 100%;
+    float: left;
+}
+.rightpicture2 img {
+    width: 560px;
+    height: 100%;
+}
+
