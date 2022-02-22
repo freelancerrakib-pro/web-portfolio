@@ -107,21 +107,23 @@ button.btns:hover{
     width: 560px;
     height: 100%;
 }
-h1.experiences {
-    color: deeppink;
-    font-size: 330%;
-    padding-bottom: 3%;
+h1.exp {
+    color: black;
+    font-size: 275%;
+    padding-bottom: 1%;
     text-transform: capitalize;
-    font-weight: 300;
+    font-weight: bolder;
+    padding-top: 43px;
 }
 
 .left {
-    width: 40%;
-    border: 1px solid;
-    height: 300px;
+    width: 39%;
+    height: 245px;
     padding: 30px;
+    margin: 20px 20px;
     float: left;
-    margin-right: 9%;
+    margin-right: 3%;
+    border-radius: 5px;
 }
 
 
@@ -130,12 +132,43 @@ h1.experiences {
     text-transform: capitalize;
     padding-bottom: 12px;
 }
-.left h3 {
-    font-size: 20px;
+.left h4 {
+    font-size: 17px;
     color: orange;
-}
-.left:last-child{
-	margin-right:0px;
-	
+    padding-bottom: 25px;
 }
 
+
+.single-experiences{
+    box-shadow: 4px 6px 15px grey;
+}
+
+.experience-area{
+    background-size: 80px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: initial;
+    background-origin: content-box;
+}
+
+#full-stack{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+/*start footer*/
+footer.footer {
+    padding-top: 100px;
+}
+
+footer.footer p {
+    text-align: center;
+    padding: 8px;
+    background-color: #000000d1;
+    color: #beb6b6;
+}
